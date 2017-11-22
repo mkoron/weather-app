@@ -1,0 +1,45 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="style.css" type="text/css" media="all">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div id="weatherapp">
+        <button>To Imperial</button>
+        <div id="error">Please enable your location services to get the weather forecast.</div>
+        <div id="loader">
+            <img src="https://www.dropbox.com/s/26hp8zg5oo6qx16/loader.gif?raw=1">
+        </div>
+        <div id="display">
+
+            <div id="city">
+            </div>
+            <div id="icon">
+            </div>
+            <div id="temperature">
+                Temperature:
+                <br>
+                <span id="tempValue"></span>
+            </div>
+            <div id="wind">
+                Wind Speed:
+                <br>
+                <span id="windValue"></span>
+            </div>
+        </div>
+    </div>
+    <footer>A Marko Koron app /
+        <a href="https://freecodecamp.com" target="_blank">Free Code Camp</a> project</footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
